@@ -1,0 +1,68 @@
+/*Hinh 1*/
+.contaner{
+    max-width: 100%;
+    min-height: 400px;
+    display: flex;
+}
+
+.red{
+    background-color: red;
+    height: 400px;
+    flex:2;
+}
+.hinh2{
+  flex:1;
+}
+.green{
+    background-color: green;
+    height: 200px;
+}
+
+.blue{
+    background-color: blue;
+    height: 200px;
+}
+
+/*Hinh2*/
+.red2{
+    background-color: red;
+    height: 400px;
+    flex:2;
+    
+}
+.hinh22{
+  flex:1;
+  margin-left: 15px;
+}
+
+/*hinh3*/
+
+.red3{
+  background-color: red;
+  height:400px;
+}
+.green3{
+  background-color:green;
+  height:400px;
+}
+.blue3{
+  background-color:blue;
+  height:400px;
+}
+
+/*hinh4*/
+
+.red4{
+  background-color: red;
+  height:400px;
+}
+.green4{
+  background-color:green;
+  height:400px;
+  margin-left: 15px;
+}
+.blue4{
+  background-color:blue;
+  height:400px;
+  margin-left:15px;
+}
