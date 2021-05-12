@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amimation</title>
+    <style>
+      #login {
+        background-color: blue;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 100px;
+        height: 50px;
+        text-transform: uppercase;
+        transition: all 1s; /*độ trễ của thuộc tính*/
+      }
+
+      #login:hover {
+        border-radius: 25px;
+        background-color: teal;
+      }
+
+      #description::first-letter {
+        font-size: 50px;
+
+      }
+      #description::first-line{
+          background-color: wheat;
+      }
+      #description::selection{
+          background-color: tomato;
+      }
+      #description::before{
+          content: "mô tả";
+      }
+      #description::after{
+          content: "->";
+          color: yellowgreen;
+      }
+      #hieu_ung{
+          text-align: center;
+          font-size: 60px;
+          animation: rotate 0.1s infinite;
+      }
+      /* tạo amimation */
+      @keyframes change-size{
+          10% {
+            transform: scale(0.9);
+          }
+          
+          30%{
+              transform: scale(1);
+          }
+          50%{
+              transform: scale(1.4);
+          }
+          100%{
+              transform: scale(1.5);
+          }
+      }
+
+      @keyframes rotate {
+          10%{
+              transform: rotate(15deg);
+          }
+          30%{
+              transform: rotate(45deg);
+          }
+          50%{
+              transform: rotate(90deg);
+          }
+          80%{
+              transform: rotate(360deg);
+          }
+      }
+
+      #trai_tim{
+          text-align: center;
+          font-size: 120px;
+          animation: change-size 1.5s infinite;
+          
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login">login</div>
+    <!-- pseudo element -->
+    <p id="description">
+      có nghĩa là thẻ trong câu hỏi sẽ hoàn toàn không xuất hiện trên trang (mặc
+      dù bạn vẫn có thể tương tác với nó thông qua dom). Sẽ không có không gian
+      được phân bổ cho nó giữa các thẻ khác.có nghĩa là thẻ trong câu hỏi sẽ hoàn toàn không xuất hiện trên trang (mặc
+      dù bạn vẫn có thể tương tác với nó thông qua dom). Sẽ không có không gian
+      được phân bổ cho nó giữa các thẻ khác.có nghĩa là thẻ trong câu hỏi sẽ hoàn toàn không xuất hiện trên trang (mặc
+      dù bạn vẫn có thể tương tác với nó thông qua dom). Sẽ không có không gian
+      được phân bổ cho nó giữa các thẻ khác.
+      có nghĩa là thẻ trong câu hỏi sẽ hoàn toàn không xuất hiện trên trang (mặc
+      dù bạn vẫn có thể tương tác với nó thông qua dom). Sẽ không có không gian
+      được phân bổ cho nó giữa các thẻ khác.
+    </p>
+    <!-- amimation -->
+    <p id="hieu_ung">🍎</p>
+    <p id="trai_tim">💗</p>
+  </body>
+</html>
