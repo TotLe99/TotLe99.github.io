@@ -28,6 +28,12 @@ input{
     border: 2px solid #dfe1e4;
     position: relative;
 }
+input:focus{
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
 
 #submit{
     height: 60px;
