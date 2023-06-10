@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../imgcr/socola.jpg);
+    background: linear-gradient(245.59deg, #4d9559 10%, #38703d 67%, #133917 88%);
+    /*background-image: url(../imgcr/socola.jpg);*/
     background-size: 125%;
 
 }
