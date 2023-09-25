@@ -4,8 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(245.59deg, #4d9559 10%, #38703d 67%, #133917 88%);
-    /*background-image: url(../imgcr/socola.jpg);*/
+    background-image: url(../imgcr/socola.jpg);
     background-size: 125%;
 
 }
@@ -63,7 +62,6 @@ figure{
     -webkit-transform: scale(1);
 	transform: scale(1);
 }
-
 .col a:hover{
     -webkit-transform: scale(0.8);
 	transform: scale(1);
