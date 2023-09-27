@@ -8,9 +8,21 @@ body {
     overflow: hidden;
 }
 
-.score-box{
+.score-box {
     font-size: 25px;
     text-align: right;
     color: greenyellow;
+    text-align: center;
+}
+
+#score {
+    text-shadow: 0 0 5px gold;
+}
+
+.instruct {
+    position: fixed;
+    top: 20%;
+    right: 25%;
+    color: white;
 }
 
