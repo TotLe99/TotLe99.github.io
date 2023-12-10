@@ -121,6 +121,10 @@ a {
   width: 18px;
 }
 
+.checkbox:hover {
+  cursor: pointer;
+}
+
 .checkbox-name {
   margin-left: 10px;
   opacity: 0.8;
@@ -137,6 +141,12 @@ a {
   color: #fff;
   font-weight: bold;
   border-radius: 8px;
+}
+
+.btn-login:hover {
+  background-color: rgb(23, 106, 174);
+  color: #fff;
+  cursor: pointer;
 }
 
 .form-question-2 {
@@ -172,7 +182,7 @@ a {
 }
 
 @media (max-width: 768px) {
-    .container {
+  .container {
     justify-content: center;
     align-items: center;
     flex-direction: column;
